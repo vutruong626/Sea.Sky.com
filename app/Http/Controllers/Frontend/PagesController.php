@@ -22,9 +22,9 @@ class PagesController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function getAbout()
     {
-        //
+        return view('frontend.services.about');
     }
 
     /**
@@ -33,9 +33,9 @@ class PagesController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function getRooms(Request $request)
     {
-        //
+        return view('frontend.services.rooms');
     }
 
     /**
@@ -44,9 +44,9 @@ class PagesController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function getSpa()
     {
-        //
+        return view('frontend.services.spa');
     }
 
     /**
@@ -55,11 +55,19 @@ class PagesController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function getRestaurant()
     {
-        //
+        return view('frontend.services.restaurant');
     }
-
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function getDrtail(){
+        return view('frontend.services.detail_hotell');
+    }
     /**
      * Update the specified resource in storage.
      *
@@ -67,9 +75,9 @@ class PagesController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function getReservations(Request $request)
     {
-        //
+        return view('frontend.pages.reservations');
     }
 
     /**
@@ -78,8 +86,10 @@ class PagesController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function getContact()
     {
-        //
+        return view('frontend.pages.contact');
     }
+
+    
 }

@@ -146,10 +146,10 @@
     </style>
     <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
     <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="https://verso.oxygenna.com/hotel/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]-->
-    <link rel="icon" href="wp-content/uploads/sites/26/2017/12/cropped-site-150x150.png" sizes="32x32" />
-    <link rel="icon" href="wp-content/uploads/sites/26/2017/12/cropped-site-300x300.png" sizes="192x192" />
-    <link rel="apple-touch-icon-precomposed" href="wp-content/uploads/sites/26/2017/12/cropped-site-300x300.png" />
-    <meta name="msapplication-TileImage" content="https://verso.oxygenna.com/hotel/wp-content/uploads/sites/26/2017/12/cropped-site-300x300.png" />
+    <link rel="icon" href="{{asset('css/wp-content/uploads/sites/26/2017/12/cropped-site-150x150.png')}}" sizes="32x32" />
+    <link rel="icon" href="{{asset('css/wp-content/uploads/sites/26/2017/12/cropped-site-300x300.png')}}" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="{{asset('css/wp-content/uploads/sites/26/2017/12/cropped-site-300x300.png')}}" />
+    <meta name="msapplication-TileImage" content="http://sea.sky.com/css/wp-content/uploads/sites/26/2017/12/cropped-site-300x300.png" />
     <style type="text/css" id="wp-custom-css">
         /* Navigation Custom Rules */
         /* - Navigation Shadow - */
